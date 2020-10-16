@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+
+
+.input{
+	@apply text-center shadow-inputShadow rounded-full outline-none py-2 px-10 text-sm text-teal-600;
+}
+.svg{
+	@apply absolute w-5 h-5 stroke-current text-teal-500 mt-2 ml-3;
+}
+.inputRegister{
+	@apply rounded-full outline-none text-center px-8 py-1 bg-myDark shadow-inputShadowTwo text-white;
+}
+
+
+@tailwind utilities;
